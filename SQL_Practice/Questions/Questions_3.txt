@@ -1,0 +1,53 @@
+Questions_3
+
+
+1.	Display bands names and total scheduled events as #events , include bands that have not been scheduled for an event. You must use a UNION operation in this query.
+        BND_NAME                                              #Events
+-------------------------------------------------- ----------
+
+
+2.	Display total earnings of each band, include bands that preformed at least one event. 
+     BND_NAME                                                                      SUM(BND_FEE)
+-------------------------------------------------- ---------------------------------------
+
+
+3.	 Display staff name, salary and difference between this staffs' salary and the average salary for all staff as "Computed Difference".  Round the computed difference to 0 decimal places.  Order results by staff name ascending. 
+STF_NAME                  STF_SALARY                     Computed Difference
+------------------------- ---------- ---------------------------------------
+
+
+4.	Display information on SXSW staff work schedules for all event except events occurring on or after 3/19/15. List the venue name, event date, staff name, start time as Start Time and end time as End Time and work assignment (role).  Order results by event, staff name ascending. Format start and end times to display HH:MI P.M. using the TO_CHAR function. 
+VEN_NAME                                           EVT_DATE_TIME STF_NAME                  Start Time End Time   WS_ROLE                 
+-------------------------------------------------- ------------- ------------------------- ---------- ---------- -------------------------
+
+
+5.	Display Band Name, Manager Name, Event Date, Venue Name, for all events held in a venue with an age policy 21+ . 
+BND_NAME                                           MGR_LASTNAME    EVT_DATE_TIME VEN_NAME                                         
+-------------------------------------------------- --------------- ------------- --------------------------------------------------
+
+
+6.	 For SXSW Staff, List the job titles and average pay for each job title.  You answer must include a select statement in the Select clause.
+STF_TITLE                                       Average Staff Pay
+------------------------- ---------------------------------------
+ 
+ 
+7.	Display staff name, date rounded to full years as "Age" for the youngest staff whose position is not Assistant. 
+STF_NAME                         Age
+------------------------- ----------
+
+
+8.	For SWSW_STAFF, List the average salary for the job title(s) with the highest average salary as Average.  Your answer must include a select statement in the from clause;
+
+                        Average
+---------------------------------------
+
+
+9.	Display STAFF names and a concatenated list of supervisors called "Organizational Position" separated by a '/' , in hierarchical order, separated by a '/' by organizational structure under the head cab driver, Donna Murphy. Hint: use the SYS_CONNECT_BY_PATH function 
+Staff Name
+-------------------------
+Organizational Position
+-------------------------------
+ 
+ 
+10.	Display staff names as “Staff Name” in hierarchical order by organizational structure under the head staff, Donna Murphy.  Format the results by indenting the name 3 spaces for each level of the hierarchy. Hint: use the Level pseudo-column and the Lpad & concatenate functions. 
+

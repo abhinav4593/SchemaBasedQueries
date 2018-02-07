@@ -1,0 +1,62 @@
+Questions_2
+
+1.	Display information on SXSW staff work schedules. List the venue name, event date, staff name, start time as Start Time and end time as End Time and work assignment (role).  Order results by event, staff name ascending. Format start and end times to display HH:MI P.M. using the TO_CHAR function. 
+ 
+VEN_NAME                                           EVT_DATE_TIME STF_NAME                  Start Time End Time   WS_ROLE                 
+-------------------------------------------------- ------------- ------------------------- ---------- ---------- -------------------------
+
+
+2.	For each staff member list their age as "Age in Years" rounded to whole years and length of employment in days as "Days Employed” rounded to whole days. Order results by employee age descending. Hint, you must calculate age and employment using round and sysdate functions. 
+ 
+STF_NAME                                             Age in Years                          Days Employed
+------------------------- --------------------------------------- ---------------------------------------
+
+
+3.	Display band name, fee and type for bands who make more than the average fee of bands of the same type. Your query must include a correlated subquery.
+
+BND_NAME                                              BND_FEE BND_T
+-------------------------------------------------- ---------- -----
+
+
+4.	Display staff id, name and salary for staff that make greater than or equal to the maximum salary of all staff who are not Event Coordinators. You answer must include an uncorrelated subquery.
+ 
+STF_I STF_NAME                  STF_SALARY
+----- ------------------------- ----------
+
+
+5.	For each staff member, list the staff name and email email address, the number of characters in the email address as "Length of Email Address" and the number of characters preceding the @ as "Characters Following the @"  Order the result by email length descending.
+
+STF_EMAIL                                 Length of Email Address              Characters Following the @
+------------------------- --------------------------------------- ---------------------------------------
+
+6.	 Display staff names in the format First name Middle Initial. Last Name as Staff Name.  (ex.  Donna C. Murphy ). 
+
+Name of Staff                                                               
+-----------------------------------------------------------------------------
+
+
+7.	SXSW Staff, display the Month as "Month" and number of staff born in each month as # Staff Born .  Order by birth month ascending.
+
+Month                                   # Staff Born
+------------ ---------------------------------------
+
+
+8.	For each staff member, list the staff named phone number.  Format the phone number as (xxx) xxx-xxxx. If no phone number is available display "No Phone Available". Hint you may find a set operation helpful here
+ 
+STF_NAME                  Phone Number     
+------------------------- ------------------
+
+
+9.	Display all information on business who have not yet sponsored an event.  You answer must use a correlated subquery and the Exists operator.
+ 
+BUS_I BUS_NAME                                           BUS_ADDRESS                                                  BUS_PHONE
+----- -------------------------------------------------- -------------------x`----------------------------------------- ----------
+
+
+10.	Display the name of vendors who have how have supplied at least one order to every event.   Remember our discussion on relational algebra division. 
+ 
+VEN_NAME                
+-------------------------
+
+ 
+ 

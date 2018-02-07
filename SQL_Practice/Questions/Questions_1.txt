@@ -1,0 +1,93 @@
+Questions_1
+
+1.	Display Band number, name and fee as Band Fee. Sort output by band fee descending.
+
+BND_I BND_NAME                                             Band Fee
+----- -------------------------------------------------- ----------
+
+
+2.	 Display the following information of each event, the band name, venue name, event date & duration, sponsor. Order results by venue and event date ascending.
+
+BND_NAME                          VEN_NAME                              EVT_DATE_TIME EVT_DURATION                    BUS_NAME                                         
+--------------------------------- ------------------------------------- ------------- ------------------------------- -------------------------------
+
+
+3.	Display venue name and number of events scheduled as "Number of Events".  Only include venues that will host more than one event.
+
+VEN_NAME                                                                  Number if Events
+-------------------------------------------------- ---------------------------------------
+
+
+4.	Display all information for staff born on or after 12/31/45 and on or before 12/31/80.  Order by hiredate descending. 
+
+STF_I STF_NAME                  STF_STREET                STF_CITY             ST STF_Z STF_PHONE  STF_SALARY STF_EMAIL                 STF_TITLE                 STF_HIREDATE STF_DOB   STF_S
+----- ------------------------- ------------------------- -------------------- -- ----- ---------- ---------- ------------------------- ------------------------- ------------ --------- -----
+
+
+5.	 For each item that has been supplied by a vendor to an event, list the item name, the total number ordered as #ordered and total and the total sales amount for this item as Total Sales. Only include items with a total sales greater than $50,000
+
+ORD_ITEM                    #Ordered                             Total Sales
+------------------------- ---------- ---------------------------------------
+
+
+6.	Display the names of bands that has not yet been scheduled for a SXSW event using relational algebra set operation.
+
+BND_NAME                                         
+--------------------------------------------------
+  
+  
+7.	List all information on bands who are classified as Pop bands and are located in London or Houston.
+
+BND_I BND_NAME                                           BND_STREET                BND_CITY             BND_STATE            BND_ZIPCOD BND_PHONE            BND_T    BND_FEE BND_
+----- -------------------------------------------------- ------------------------- -------------------- -------------------- ---------- -------------------- ----- ---------- ----
+
+
+8.	For each band that has at least one event schedule, list the band number and name and number of events scheduled as  # Events Scheduled. Order by band name ascending
+
+BND_I BND_NAME                                                                # Events Scheduled
+----- -------------------------------------------------- ---------------------------------------
+ 
+ 
+9.	For each manager, display manager number, first and last name along with number of bands managed as "Bands Managed".  Order results by manager number ascending. Include managers who currently do not manage any bands. Order by 
+ 
+MGR_ MGR_FIRSTNAM MGR_LASTNAME                              Bands Managed
+---- ------------ --------------- ---------------------------------------
+ 
+ 
+10.	Display staff titles and average salary as Avg for each title. Format the salary to use the $ and comma to delineate thousands. 
+
+STF_TITLE                 Avg
+------------------------- --------
+  
+  
+11.	Display Managers last and first name for Managers that have the same last name but a different first name. Order by owner last name. 
+
+MGR_LASTNAME    MGR_FIRSTNAM
+--------------- ------------
+   
+   
+12.	For each event list the venue name, event date. Include venues that do not have any events scheduled. Order results by venue and event date ascending.
+
+VEN_NAME                                           EVT_DATE_TIME                            EVT_DURATION
+-------------------------------------------------- ------------- ---------------------------------------
+
+
+13.	For each venue, list the venue name along with the average, maximum and minimum budgets for events held at the venue. Only include venues with a maximum event budget grater than $1,000,000.
+
+VEN_NAME                                                                   AVG(EVT_BUDGET)                         MAX(EVT_BUDGET)                         MIN(EVT_BUDGET)
+-------------------------------------------------- --------------------------------------- --------------------------------------- ---------------------------------------
+
+
+
+14.	Display all information on band managers who's last name begins with a G and ends in an m. 
+
+MGR_ MGR_FIRSTNAM MGR_LASTNAME    MGR_MIDINITI MGR_ADDRESS                                        MGR_PHONE          
+---- ------------ --------------- ------------ -------------------------------------------------- --------------------
+
+
+15.	Display all information on staff whose title is either Event Coordinator or Event Supervisor and do not have a birthdate recorded.
+
+
+STF_I STF_NAME                  STF_STREET                STF_CITY             ST STF_Z STF_PHONE  STF_SALARY STF_EMAIL                 STF_TITLE                 STF_HIREDATE STF_DOB   STF_S
+----- ------------------------- ------------------------- -------------------- -- ----- ---------- ---------- ------------------------- ------------------------- ------------ --------- -----
+  
